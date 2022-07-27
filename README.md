@@ -49,3 +49,12 @@
 > v1.0
 >> SuperCmd正式发布！
 >> SuperCmd officially released!
+
+> v1.1
+>> 这是一个小更新，只是在启动时显示会版本号。
+>>This is a small update, but the version number will be displayed at startup.
+
+> v1.2
+>> 修复错误：
+>>> - 修复了未输入命令却显示“Bad Command”的问题。
+>>> - Fixed the problem of displaying "bad command" without entering a command.
