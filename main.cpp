@@ -83,31 +83,39 @@ void check_Arg_Else()
     if (cmd.substr(0, 4) == "echo")
     {
         system(cmd.c_str());
+        BadCmd = "Bad Command: ";
     }
     else
     {
         /*识别为路径 Recognize as path
         未完成 Not finished
-        
+
         if (cmd.substr(1, 3) == ":/" &&
                             ((cmd[0] >= 'A' && cmd[0] <= 'Z' ) ||
                                                 (cmd[0] >= 'a' || cmd[0] <= 'z')))
         {
             system(("start"+cmd).c_str());
         }*/
-                                                
-            //else
-            //{
-                printf("%s\n", BadCmd.c_str());
-                BadCmd = "Bad Command: ";
-            //}
+
+        // else
+        //{
+        if(cmd=="") input();
+        else{
+            printf("%s\n", BadCmd.c_str());
+            BadCmd = "Bad Command: ";
+        }
+        
+        //}
     }
 
     input();
 }
 int main()
 {
+    float ver = 1.3;
     SetConsoleTitle("SuperCmd");
+    printf("SuperCmd Version %.1f\n",ver);
+    printf("By SYSTEM-MEMZ-ALEX. All rights reserved.\n\n");
     input();
     return 0;
 }
