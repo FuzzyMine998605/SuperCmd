@@ -1,10 +1,10 @@
 # SuperCmd
-## By SYSTEM-MEMZ-ALEX
+## By SYSTEM-MEMZ-ALEX(SystemDrive)
 </br>
 
 # 中文版本
 ## [我的个人空间(bilibili)](https://space.bilibili.com/1802312406)
-## [我的个人空间(GitHub)](https://github.com/FuzzyMine998605/)
+## [我的个人空间(GitHub)](https://github.com/SYSTEM-MEMZ-ALEX)
 </br>
 
 ## 使用的编译器：MSVC
@@ -26,7 +26,7 @@
 
 # English Version
 ## [My personal space (bilibili)](https://space.bilibili.com/1802312406)
-## [My personal space (GitHub)](https://github.com/FuzzyMine998605/)
+## [My personal space (GitHub)](https://github.com/SYSTEM-MEMZ-ALEX)
 </br>
 
 ## Compiler used: MSVC
